@@ -29,6 +29,6 @@ console.log (n);
 console.log (num);
 
 let firstFriday = 5;
-for (let i = firstFriday; i = 31; i+=7){
+for (let i = firstFriday; i <= 31; i+=7){
     console.log(`Сегодня пятница, ${i}- e число. Необходимо подготовить отчет.`);
 }
