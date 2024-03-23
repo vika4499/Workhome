@@ -24,10 +24,11 @@ function qreetUser() {
         console.log("Вы ввели неправельное значение");
     } else if (age <=12) {
         console.log("Привет, друг!");
-    } else (age <=12) {
+    } else {
         console.log("Добро пожаловать!");
     }
 }
+
 
 function multiplyNumbers(a, b){
     if (isNaN(a) || isNaN(b)) {
@@ -72,7 +73,7 @@ function getSeason(month) {
         return "Лето";
     } else if (month >= 9 && month <= 11){
         return "Осень";
-    } else if (month >= 12 && month <= 1){
+    } else if (month == 12 && month == 1 || month == 2) {
         return "Зима";
     } else {
         return "Неизвестное значение";
